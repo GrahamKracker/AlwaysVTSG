@@ -6,6 +6,7 @@
         <Nullable>enable</Nullable>
         <AssemblyName>AlwaysVTSG</AssemblyName>
         <LangVersion>latest</LangVersion>
+        <DontReferenceModHelper>true</DontReferenceModHelper>
     </PropertyGroup>
     <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
         <Optimize>false</Optimize>
