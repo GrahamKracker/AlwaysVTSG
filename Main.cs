@@ -10,7 +10,7 @@ using Il2CppAssets.Scripts.Simulation.Towers.Behaviors;
 namespace AlwaysVTSG;
 
 [HarmonyPatch]
-public class Main : BloonsTD6Mod
+public class Main : MelonMod
 {
     [HarmonyPatch(typeof(MonkeyTemple), nameof(MonkeyTemple.StartSacrifice))]
     [HarmonyPostfix]
